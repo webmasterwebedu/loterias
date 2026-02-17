@@ -9,7 +9,7 @@ echo "=== DIAGNÓSTICO ===\n\n";
 echo "PHP OK - Versão: " . phpversion() . "\n\n";
 
 // Teste DNS do domínio
-$dominio = 'showeb.com.br';
+$dominio = 'seusite.com.br';
 $ip = gethostbyname($dominio);
 
 if ($ip === $dominio) {
